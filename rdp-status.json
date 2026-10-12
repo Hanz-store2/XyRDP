@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdphnx-2-1",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -43,9 +43,10 @@
     "tailscale": {
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.82.128.29",
-      "magicdns": "rdphnx-2-1.tailbcd7f0.ts.net.",
-      "hostname": "rdphnx-2-1"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -123,5 +124,6 @@
     "os": "Microsoft Windows Server 2025 Datacenter",
     "play_tested": false
   },
-  "heartbeat_at": "2026-10-12T18:49:20.8646125Z"
+  "heartbeat_at": "2026-10-12T18:49:20.8646125Z",
+  "stopped_at": "2026-10-12T18:53:16Z"
 }
