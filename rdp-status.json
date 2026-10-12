@@ -122,5 +122,6 @@
     "windows_server": true,
     "os": "Microsoft Windows Server 2025 Datacenter",
     "play_tested": false
-  }
+  },
+  "heartbeat_at": "2026-10-12T13:22:07.1562147Z"
 }
